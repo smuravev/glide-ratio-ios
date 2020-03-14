@@ -166,16 +166,16 @@ struct ContentView: View {
                 .fill(Color.myBackgroundColor)
 
             VStack {
-                Text("WARNING")
-                    .font(Font.myLargeFont)
-                    .foregroundColor(.myErrorColor)
-                    .padding(.vertical)
-                
-                Text("Bla, bla, bla ...")
-                    .font(Font.myMediumFont)
-                    .foregroundColor(.myPrimaryColor)
-                
-                Spacer()
+                ScrollView(.vertical, showsIndicators: true) {
+                    Text("NOTICE")
+                        .font(Font.myLargeFont)
+                        .foregroundColor(.myErrorColor)
+                        .padding(.vertical)
+                    
+                    Text(disclaimerText)
+                        .font(Font.myMediumFont)
+                        .foregroundColor(.myPrimaryColor)
+                }
                 
                 Button(action: {
                     self.showHelp = false
@@ -183,12 +183,35 @@ struct ContentView: View {
                     Text("Close")
                         .font(Font.myLargeFont)
                         .foregroundColor(.mySecondaryColor)
-                        .padding()
                 }
                 .padding(.vertical)
             }
         }
     }
+    
+    private let disclaimerText = """
+1. Disclaimer and exclusion of liability Exemption from liability, waiver of claims, assumption of risk.
+
+1.1. Assumption of risk.
+
+Any Paragliding, Speed flying (Speed riding), Base jumping and other Paralpinisme sport activities involve certain risks of personal injury or death for the user of the application and for third parties.
+
+By using the application, you agree to assume and accept any and all known and unknown, and likely and unlikely risks of injury.
+
+The risks inherent in these sports can be reduced to a large extent by observing the warning guidelines contained in the manuals of your equipment and by using common sense.
+
+1.2. Exclusion of liability, waiver of claims.
+
+By using the application, you agree to the following points, to the extent permitted by law.
+
+To waive any and all claims however they arise from use of the application, which you have or may in the future have against authors and any other parties.
+
+1.3. To release.
+
+Authors of the application and any other parties from any and all claims for loss, damage, injury or expense that you, your next of kin or relations or any other user of the application may suffer as a result of use of the application, including liability arising under law and contract on the part of authors and any other parties in the distribution, development and usage of the application.
+
+In the event of death or disability, all of the provisions contained herein shall be effective and binding upon the user’s heirs, next of kin and relatives, executors, administrators, assigns and legal representatives. Application authors and all other parties have not made any oral or written representations and expressly deny having done so, with the exception of what is set out herein and in the application manual.
+"""
 }
 
 #if DEBUG
