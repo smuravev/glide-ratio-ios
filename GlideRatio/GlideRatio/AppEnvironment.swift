@@ -60,7 +60,7 @@ extension AppEnvironment {
 
         delay(2) {
             guard self.motionManager.isDeviceMotionAvailable else {
-                self.calibration = .failed("Motion service not supported - make sure accelerometer and manetometer (compass) installed on your device.")
+                self.calibration = .failed("Motion service not supported - make sure accelerometer and magnetometer (compass) installed on your device.")
                 return
             }
             
