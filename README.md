@@ -1,14 +1,18 @@
 # GlideRatio (iOS) project
 
-GlideRatio is iOS application to calculate minimal glide ratio (of a wing) required to fly your line in 
-Speedflying, Paragliding, Basejumping and other Paralpnisme activities.
+First, many thanks to my Bulgarian friends: Andrey Manolov and Emil Gyorev.  
+For the great idea to create this application. If it was not for your help and encouragement,  
+this project would not have been successful.
 
-It's simple (useful) application with minimalistic UI / UX to use it in your Hike&Fly missions.
+This application uses rear camera and motion sensors of your phone to detect  
+minimal glide ratio required to safely run (fly) lines in your Hike&Fly missions.
 
-Application uses rear camera, accelerometer and magnetometer (compass) sensors to detect the tilt angle of your flying line and then 
-to calculate the minimal glide ratio.
+Two modes of detection: from landing zone and from takeoff site.
 
-You only need to point your camera to landing zone or to potential takeoff area.
+Use zoom feature to point your camera to destination accurate.
+
+Minimalistic UI (no stupid buttons, controls, etc): Just point your camera to landing (or to takeoff) zone,  
+boom - you can see calculated glide ratio immediately.
 
 Fly safe.
 
