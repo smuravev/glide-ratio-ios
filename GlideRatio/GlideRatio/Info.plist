@@ -21,9 +21,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>This app requires usage of camera to function property.</string>
+	<string>This app requires usage of camera to accurate point to takeoff (or to landing) zone - to finally calculate glide ratio of your wing.</string>
 	<key>NSMotionUsageDescription</key>
-	<string>This app requires motion, accelerometer and magnetometer sensors to function property.</string>
+	<string>This app requires motion, accelerometer and magnetometer sensors to calculate glide ratio of your wing.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
