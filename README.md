@@ -1,5 +1,7 @@
 # GlideRatio (iOS) project
 
+[GlideRatio (iOS) on Apple AppStore](https://apps.apple.com/ru/app/glideratio/id1502810830)
+
 First, many thanks to my Bulgarian friends: Andrey Manolov and Emil Gyorev.  
 For the great idea to create this application. If it was not for your help and encouragement,  
 this project would not have been successful.
